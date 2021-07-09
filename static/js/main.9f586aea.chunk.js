@@ -1,2 +1,0 @@
-(this["webpackJsonpgoit-react-hw-01-components-"]=this["webpackJsonpgoit-react-hw-01-components-"]||[]).push([[0],{4:function(t,e){},5:function(t,e,n){"use strict";n.r(e);var c=n(0),o=n.n(c),s=n(3),r=n.n(s),i=n(4),a=n.n(i),p=(n(10),n(2));r.a.render(Object(p.jsx)(o.a.StrictMode,{children:Object(p.jsx)(a.a,{})}),document.getElementById("root"))}},[[5,1,2]]]);
-//# sourceMappingURL=main.9f586aea.chunk.js.map
