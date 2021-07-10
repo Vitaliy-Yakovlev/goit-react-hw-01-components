@@ -5,7 +5,6 @@ import defaultImg from './default.jpg';
 
 const Profile = ({ avatar, name, tag, location, stats }) => (
   <div className="profile">
-    <p className="task-title">Task 1</p>
     <div className="description">
       <img src={avatar} alt="Аватар пользователя" className="avatar" />
       <p className="name">{name}</p>

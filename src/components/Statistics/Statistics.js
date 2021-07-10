@@ -11,7 +11,6 @@ function randColor() {
 
 const Statistics = ({ title, stats }) => (
   <section className="statistics">
-    <p className="task-title">Task 2</p>
     {title && <h2 className="statistics-title">{title}</h2>}
 
     <ul className="statistics-stat-list">
