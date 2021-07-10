@@ -1,4 +1,4 @@
-.friend-list {
+.list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.friend-item {
+.item {
   display: inline-flex;
   align-items: center;
   width: 450px;
@@ -17,23 +17,23 @@
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.55);
 }
 
-.friend-avatar {
+.avatar {
   margin-left: 20px;
 }
 
-.friend-name {
+.name {
   margin: 0;
   margin-left: 50px;
 }
 
-.friend-active {
+.active {
   width: 15px;
   height: 15px;
   border-radius: 20px;
   background-color: rgb(0, 250, 0);
 }
 
-.friend-not-active {
+.notActive {
   width: 15px;
   height: 15px;
   border-radius: 50%;

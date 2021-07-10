@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Statistics.css';
+import styles from './Statistics.module.css';
 
 function randColor() {
   var r = Math.floor(Math.random() * 256),
@@ -10,18 +10,18 @@ function randColor() {
 }
 
 const Statistics = ({ title, stats }) => (
-  <section className="statistics">
-    {title && <h2 className="statistics-title">{title}</h2>}
+  <section className={styles.statistics}>
+    {title && <h2 className={styles.title}>{title}</h2>}
 
-    <ul className="statistics-stat-list">
+    <ul className={styles.statList}>
       {stats.map(({ id, label, percentage }) => (
         <li
-          className="statistics-item"
+          className={styles.item}
           key={id}
           style={{ backgroundColor: randColor() }}
         >
-          <span className="statistics-label">{label}</span>
-          <span className="statistics-percentage">{percentage}</span>
+          <span className={styles.label}>{label}</span>
+          <span className={styles.percentage}>{percentage}</span>
         </li>
       ))}
     </ul>
