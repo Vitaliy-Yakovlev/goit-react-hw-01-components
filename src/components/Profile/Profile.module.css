@@ -2,7 +2,7 @@
   width: 450px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background: #eeeeee;
+  background: #fff;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.55);
@@ -22,15 +22,24 @@
   border: solid 1px rgb(9, 9, 9);
 }
 .name {
-  font-size: 26px;
+  margin: 0;
+  margin-top: 15px;
+
+  font-size: 25px;
   font-weight: bold;
 }
 .tag {
   margin: 0;
+  margin-top: 10px;
+
   font-weight: 500;
   color: #747474;
 }
 .location {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   color: #747474;
 }
@@ -41,7 +50,7 @@
   padding: 0;
   margin: 0;
   background-color: rgb(199, 199, 199);
-  border-top: 2px solid rgb(123, 123, 123);
+  border-top: 2px solid rgb(0, 0, 0);
 }
 .stats li {
   display: flex;
@@ -51,8 +60,8 @@
   padding: 20px;
 }
 .stats li:nth-child(even) {
-  border-left: 2px solid rgb(123, 123, 123);
-  border-right: 2px solid rgb(123, 123, 123);
+  border-left: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
 }
 .label {
   font-weight: 500;
